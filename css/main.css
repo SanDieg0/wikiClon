@@ -1,0 +1,349 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+.titulo{
+    width: 220px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    
+}
+.titulo .container-logo{
+    width: 57px;
+    margin-right: 10px;
+}
+.titulo .container-logo img{
+    width: 100%;
+}
+.titulo span{
+    display: flex;
+    flex-direction: column;
+}
+.titulo span h1{
+    font-size: 25px;
+    font-family: 'Cormorant Garamond', serif;
+
+}
+.titulo span h1::first-letter{
+    font-size: 32px;
+}
+.titulo h4{
+    font-size: 14px;
+    font-family: 'Cormorant Garamond', serif;
+
+}
+
+
+
+.contenedor-busqueda{
+    width: 95%;
+    height: 44px;
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.contenedor-busqueda .marco{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    border-top: 2px solid #edeff1;
+    border-left: 2px solid #edeff1;
+    border-bottom: 2px solid #edeff1;
+}
+.contenedor-busqueda .marco:focus-within{
+    border-top: 2px solid #7094dc;
+    border-left: 2px solid #7094dc;
+    border-bottom: 2px solid #7094dc;
+}
+.contenedor-busqueda .marco input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    padding: 0 0 0 2px;
+}
+.contenedor-busqueda .marco p{
+    margin: 0 5px 0 0;
+    display: flex;
+    align-items: center;
+}
+.contenedor-busqueda .marco p span{
+    font-size: 16px;
+}
+.contenedor-busqueda .marco p img{
+    width: 8px;
+    height: 8px;
+    margin: 0 2px 0 3px;
+
+}
+.contenedor-busqueda .figure-lupa{
+    background-color: #3366cc;
+    height: 100%;
+    border: 2px solid #3366cc;
+}
+.contenedor-busqueda .figure-lupa img{
+    width: 22px;
+    height: 22px;
+    filter: invert(100%);
+    padding: 8px 16px;
+}
+
+
+
+.figura{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.figura .idiomas p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.figura .idiomas p a{
+    text-decoration: none;
+    color: #5185da;
+    padding: 3px 0;
+    font-size: 14px;
+    font-weight: 600;
+}
+.figura .idiomas p span{
+    color: #555978;
+    padding: 1px 0;
+    font-size: 13px;
+}
+
+
+
+.idioma{
+    width: 267px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.idioma .idioma-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #a2a9b1;
+    background-color: #f8f8f9;
+    padding: 6px 0;
+}
+.idioma .idioma-container button{
+    background-color: #f8f8f9;
+    border: none;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+    color: #5185da;
+    font-weight: 600;
+    margin: 0 10px;
+    height: 100%;
+}
+.idioma .idioma-container img{
+    width: 22px;
+    height: 22px;
+        
+}
+.idioma .idioma-container img:nth-last-child(1){
+    width: 8px;
+    height: 8px;
+    margin: 0 2px 0 3px;
+}
+.idioma .idioma-container:hover{
+    border: 1px solid #5185da;
+}
+
+
+
+.linea{
+    margin: 20px auto 20px auto;
+    border-top: 1px solid #d9dcdf;
+    width: 90%;
+}
+
+
+
+.linea .parte1 .figure-linea{
+    text-align: center;
+        
+}
+.linea .parte1 .figure-linea img{
+    display: block;
+    width: 42px;
+    margin: 10px auto 0 auto;
+}
+.linea .parte1 .figure-linea span{
+    display: block;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.linea .parte1 .figure-linea a{
+    display: block;
+    text-decoration: none;
+    color: #5185da;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+
+
+.linea .parte2{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 7px;
+    margin: 10px auto;
+    width: 100%;
+}
+.linea .parte2 .item{
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+}
+.linea .parte2 .item .text-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.linea .parte2 .item .text-container a{
+    text-decoration: none;   
+    color: #5185da; 
+}
+.linea .parte2 .item .imagen-logo{
+    margin: 0 auto;
+}
+.linea .parte2 .item .imagen-logo-commons{
+    width: 70px;
+    height: 47px;
+    background-image: url("https://www.wikipedia.org/portal/wikipedia.org/assets/img/sprite-e99844f6.svg");
+    background-position: 0 0;
+}
+.linea .parte2 .item .imagen-logo-wikiviajes{
+    width: 36px;
+    height: 36px;
+    background-image: url("https://www.wikipedia.org/portal/wikipedia.org/assets/img/sprite-e99844f6.svg");
+    background-position: 0 -447px;
+}
+.linea .parte2 .item .imagen-logo-wikcionario{
+    width: 37px;
+    height: 37px;
+    background-image: url("https://www.wikipedia.org/portal/wikipedia.org/assets/img/sprite-e99844f6.svg");
+    background-position: 0 -482px;
+}
+.linea .parte2 .item .imagen-logo-wikilibros{
+    width: 37px;
+    height: 37px;
+    background-image: url("https://www.wikipedia.org/portal/wikipedia.org/assets/img/sprite-e99844f6.svg");
+    background-position: 0 -126px;
+}
+.linea .parte2 .item .imagen-logo-wikinoticias{
+    width: 47px;
+    height: 26px;
+    background-image: url("	https://www.wikipedia.org/portal/wikipedia.org/assets/img/Wikinews-logo_sister@2x.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.linea .parte2 .item .imagen-logo-wikidata{
+    width: 49px;
+    height: 49px;
+    background-image: url("https://www.wikipedia.org/portal/wikipedia.org/assets/img/sprite-e99844f6.svg");
+    background-position: 0 -163px;
+}
+.linea .parte2 .item .imagen-logo-wikiversidad{
+    width: 43px;
+    height: 37px;
+    background-image: url("https://www.wikipedia.org/portal/wikipedia.org/assets/img/sprite-e99844f6.svg");
+    background-position: 0 -409px;
+}
+.linea .parte2 .item .imagen-logo-wikiquote{
+    width: 42px;
+    height: 42px;
+    background-image: url("https://www.wikipedia.org/portal/wikipedia.org/assets/img/sprite-e99844f6.svg");
+    background-position: 0 -286px;
+}
+.linea .parte2 .item .imagen-logo-mediawiki{
+    width: 65px;
+    height: 42px;
+    background-image: url("https://www.wikipedia.org/portal/wikipedia.org/assets/img/sprite-e99844f6.svg");
+    background-position: 0 -47px;
+}
+.linea .parte2 .item .imagen-logo-wikisource{
+    width: 39px;
+    height: 39px;
+    background-image: url("https://www.wikipedia.org/portal/wikipedia.org/assets/img/sprite-e99844f6.svg");
+    background-position: 0 -328px;
+}
+.linea .parte2 .item .imagen-logo-wikiespecies{
+    width: 55px;
+    height: 42px;
+    background-image: url("https://www.wikipedia.org/portal/wikipedia.org/assets/img/sprite-e99844f6.svg");
+    background-position: 0 -367px;
+}
+.linea .parte2 .item .imagen-logo-meta{
+    width: 70px;
+    height: 37px;
+    background-image: url("https://www.wikipedia.org/portal/wikipedia.org/assets/img/sprite-e99844f6.svg");
+    background-position: 0 -89px;
+}
+
+
+
+.parte3-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #f8f9fa;
+    padding: 10px;
+}
+.parte3-descargar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.parte3-descargar img{
+    width: 28px;
+    border-radius: 8px;
+}
+.parte3-descargar span{
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    margin: 0 auto;
+}
+.parte3-container .parte3-texto{
+    margin: 20px auto 10px auto;
+}
+.parte3-container .parte3-androidapple{
+    display: inline-block;
+}
+.parte3-container .parte3-androidapple img{
+    width: 124px;
+    height: 38px;
+}
+
+
+
+.parrafo-licencia{
+    width: 100%;
+    margin: 10px auto;
+    font-size: 14px;
+    text-align: center;
+}
+.parrafo-licencia span{
+    display: inline-block;
+}
+.parrafo-licencia a{
+    display: inline-block;
+    text-decoration: none;
+    color: #5185da;
+    padding: 0 3px;
+}
